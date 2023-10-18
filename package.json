@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watchAll"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
+    "coverage": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+
   },
   "author": "",
   "license": "ISC",
