@@ -1,4 +1,4 @@
-import { GhRepo } from "../models/GhRepo"
+import { GhRepo } from "../models/GhRepo.js"
 
 const ghsumstarts = [
     {
