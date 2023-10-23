@@ -1,6 +1,6 @@
 import { describe, expect } from '@jest/globals'
-import lastUpdated from './lastUpdated.js'
 import ghrepolist from '../data/ghrepolist.js'
+import lastUpdated from './lastUpdated.js'
 
 describe('.lastUpdated', () => {
 

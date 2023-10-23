@@ -1,3 +1,5 @@
+import { GhRepo } from "../models/GhRepo"
+
 const ghsumstarts = [
     {
         "id": 1296269,
@@ -71,7 +73,7 @@ const ghsumstarts = [
         "hooks_url": "https://api.github.com/repos/octocat/Hello-World/hooks",
         "svn_url": "https://svn.github.com/octocat/Hello-World",
         "homepage": "https://github.com",
-        "language": null,
+        "language": 'null',
         "forks_count": 9,
         "stargazers_count": 80,
         "watchers_count": 80,
@@ -186,7 +188,7 @@ const ghsumstarts = [
         "hooks_url": "https://api.github.com/repos/octocat/Hello-World/hooks",
         "svn_url": "https://svn.github.com/octocat/Hello-World",
         "homepage": "https://github.com",
-        "language": null,
+        "language": 'null',
         "forks_count": 9,
         "stargazers_count": 80,
         "watchers_count": 80,
@@ -229,7 +231,7 @@ const ghsumstarts = [
             }
         }
     }
-]
+] as unknown as GhRepo[]
 
 
 export default ghsumstarts
